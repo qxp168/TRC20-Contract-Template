@@ -1,0 +1,9 @@
+curl -X POST \
+  https://api.trongrid.io/wallet/createtransaction \
+  -H 'Content-Type: application/json' \
+  -H 'TRON-PRO-API-KEY: 25f66928-0b70-48cd-9ac6-da6f8247c663' \
+  -d '{
+    "to_address": "41e9d79cc47518930bc322d9bf7cddd260a0260a8d",
+    "owner_address": "41D1E7A6BC354106CB410E65FF8B181C600FF14292",
+    "amount": 1000
+}'
